@@ -21,4 +21,10 @@
     @media (max-width: 950px) {
         width: 100%;
     }
+
+    @media (max-width: 500px) {
+        & select#tipoTransacao {
+            width: 90%;
+        }
+    }
 }
