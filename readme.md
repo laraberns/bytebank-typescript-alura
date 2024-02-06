@@ -1,24 +1,28 @@
-# ByteBank Project Readme
+# Branch OOP
 
-## Project Overview
+## Objective
 
-The **ByteBank** project was created with the primary goal of practicing TypeScript and addressing all the requirements outlined in the "requisitos.txt" file. Throughout the development process, various concepts and features of TypeScript were applied, including modules, enums, types, and local storage for data transaction storage.
+The "oop" branch was created with the purpose of transforming the previously developed code in the "main" branch, which followed a functional programming approach, into an object-oriented paradigm. The goal is to restructure the code using fundamental concepts of object-oriented programming, such as the creation of classes, attributes, methods, encapsulation, generics type, inheritance of attributes, the use of decorators, and polymorphism.
 
-## Technologies Used
+## Key Changes
 
-- TypeScript
-- HTML
-- CSS 
+### 1. Class Creation
+   - Introduction of classes as the main structure to organize and represent entities within the system.
 
-## Project Structure
+### 2. Attributes and Methods
+   - Definition of attributes to store data and methods to perform operations related to the classes.
 
-The project is structured to encompass various TypeScript features and best practices. Here is an overview of the main components:
+### 3. Encapsulation
+   - Utilization of encapsulation to control access to attributes, ensuring data integrity and promoting code modularity.
 
-1. **Modules:** The project leverages TypeScript modules to organize code into manageable and reusable units. Each module encapsulates related functionality, promoting a clean and modular codebase.
+### 4. Generics Type
+   - Implementation of generics type to allow the creation of classes and methods that can be used with different data types.
 
-2. **Enums:** Enumerations were utilized to define a set of named constants representing distinct transaction types or other relevant entities. This enhances code readability and maintainability.
+### 5. Inheritance of Attributes
+   - Application of the inheritance concept to reuse attributes and methods from a base class in derived classes.
 
-3. **Types:** TypeScript's static typing features were extensively applied, defining clear types for variables, functions, and other data structures. This promotes code robustness and reduces the likelihood of runtime errors.
+### 6. Decorator
+   - Incorporation of decorators to add extra functionalities to methods or classes, providing greater flexibility and modularity.
 
-4. **LocalStorage:** To persistently store transaction data, the project uses the browser's Local Storage feature. This ensures that user data is retained even after the page is refreshed or closed, providing a seamless and persistent experience.
-
+### 7. Polymorphism
+   - Introduction of polymorphism to allow objects from different classes to be treated uniformly, facilitating system extension and maintenance.
